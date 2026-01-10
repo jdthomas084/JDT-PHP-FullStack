@@ -21,7 +21,7 @@ $query = "INSERT INTO _InputTable (input_value_columnar_data) VALUES (".$nPut_nu
 // Database Name: "_input_numbers_from_webpage_db"
 // Table Name: "_InputTable"
 // Column Name: "input_value_columnar_data"
-// Field Name: "$nPut_number"
+// Field Name: "$nPut_number" (identifier)
 
 // Carry out the action
 $conn->query($query);
@@ -29,12 +29,13 @@ $conn->query($query);
 // Close the connection
 $conn->close();
 ?>
-// Display some HTML
 <!DOCTYPE html>
+<!-- Display some HTML -->
 <head>
 </head>
 <body>
 	<!-- Hyperlink to a Landing Page after PHP script runs. -->
 	<h1><a href="landingPage.html">CLICK HERE</a></h1>
 </body>
+
 </html>
